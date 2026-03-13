@@ -82,7 +82,7 @@ export const defaultOptions: DefaultOptions = {
   eyeStyle: ["circle", "oval", "smile"],
   glassesStyle: ["round", "square", "none"],
   noseStyle: ["short", "long", "round"],
-  mouthStyle: ["laugh", "smile", "peace"],
+  mouthStyle: ["laugh", "smile", "peace", "frown", "scared", "surprised"],
   shirtStyle: ["hoody", "short", "polo"],
   shirtColor: ["#9287FF", "#6BD9E9", "#FC909F", "#F4D150", "#77311D"],
   bgColor: ["#9287FF", "#6BD9E9", "#FC909F", "#F4D150", "#E0DDFF", "#D2EFF3", "#FFEDEF", "#FFEBA4", "#506AF4", "#F48150", "#74D153"],

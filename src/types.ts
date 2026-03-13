@@ -13,7 +13,7 @@ export type HatStyle = 'beanie' |'turban' | 'none'
 export type EyeStyle = 'circle' | 'oval' | 'smile'
 export type GlassesStyle = 'round' | 'square' | 'none'
 export type NoseStyle = 'short' | 'long' | 'round'
-export type MouthStyle = 'laugh' | 'smile' | 'peace'
+export type MouthStyle = 'laugh' | 'smile' | 'peace' | 'frown' | 'scared' | 'surprised'
 export type ShirtStyle = 'hoody' | 'short' | 'polo'
 export type EyeBrowStyle = 'up' | 'upWoman'
 
