@@ -10,12 +10,12 @@ export type HairStyle = 'normal' | 'thick' | 'mohawk' | 'womanLong' | 'womanShor
 export type HairStyleMan = 'normal' | 'thick' | 'mohawk'
 export type HairStyleWoman = 'normal' | 'womanLong' | 'womanShort'
 export type HatStyle = 'beanie' |'turban' | 'none'
-export type EyeStyle = 'circle' | 'oval' | 'smile'
+export type EyeStyle = 'circle' | 'oval' | 'smile' | 'anger' | 'sad' | 'scared' | 'surprised'
 export type GlassesStyle = 'round' | 'square' | 'none'
 export type NoseStyle = 'short' | 'long' | 'round'
 export type MouthStyle = 'laugh' | 'smile' | 'peace' | 'frown' | 'scared' | 'surprised'
 export type ShirtStyle = 'hoody' | 'short' | 'polo'
-export type EyeBrowStyle = 'up' | 'upWoman'
+export type EyeBrowStyle = 'up' | 'upWoman' | 'anger' | 'sad' | 'scared' | 'surprised'
 
 export interface AvatarConfig {
   sex?: Sex,

@@ -12,6 +12,7 @@ import Ear from "react-nice-avatar/ear/index"
 import Nose from "react-nice-avatar/nose/index"
 import Mouth from "react-nice-avatar/mouth/index"
 import Shirt from "react-nice-avatar/shirt/index"
+import Eyebrows from "react-nice-avatar/eyebrow/index"
 
 import SectionWrapper from "./SectionWrapper/index"
 
@@ -110,6 +111,13 @@ export default class AvatarEditor extends Component {
           tip="Eyes"
           switchConfig={this.switchConfig.bind(this, 'eyeStyle', config.eyeStyle)}>
           <Eyes style={config.eyeStyle} color="#fff" />
+        </SectionWrapper>
+        {/* Eyebrows style */}
+        <SectionWrapper
+          className="w-8 h-8 rounded-full p-2 mx-2"
+          tip="Eyebrows"
+          switchConfig={this.switchConfig.bind(this, 'eyeBrowStyle', config.eyeBrowStyle)}>
+          <Eyebrows style={config.eyeBrowStyle} color="#fff" />
         </SectionWrapper>
         {/* Glasses style */}
         <SectionWrapper
