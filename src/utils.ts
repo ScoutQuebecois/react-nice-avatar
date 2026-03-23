@@ -81,7 +81,7 @@ export const defaultOptions: DefaultOptions = {
   hatStyle: ["beanie", "turban", "none"],
   eyeBrowStyle: ["up", "upWoman", "anger", "sad", "scared", "surprised"],
   eyeBrowWoman: ["up", "upWoman", "anger", "sad", "scared", "surprised"],
-  eyeStyle: ["circle", "oval", "smile", "anger", "sad", "scared", "surprised"],
+  eyeStyle: ["circle", "oval", "smile", "anger", "surprised"],
   glassesStyle: ["round", "square", "none"],
   noseStyle: ["short", "long", "round"],
   mouthStyle: ["laugh", "smile", "peace", "frown", "scared", "surprised"],

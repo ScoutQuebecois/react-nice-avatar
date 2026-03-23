@@ -5,9 +5,9 @@ export default function eyesSmile(): SVGElement {
     <svg
       style={{
         width: "100%",
-        height: "14%",
+        height: "12%",
         position: "absolute",
-        top: "6%"
+        top: "7%"
       }}
       width="96"
       height="48"
