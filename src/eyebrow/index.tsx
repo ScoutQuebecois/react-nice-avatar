@@ -1,5 +1,4 @@
 import React from "react";
-
 import Up from "./up";
 import UpWoman from "./upWoman";
 import Anger from "./anger";
